@@ -1,0 +1,12 @@
+.content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.signature {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    border: solid 1px #000000;
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title page-title>Leap Virtual Signature</title>
+    <link rel="stylesheet" href="styles/main.css"></head>
+<body>
+    <div class="content">
+        <div class="signature"></div>
+    </div>
+    <script src="bower_components/leapjs/leap-0.6.2.js"></script>
+    <script src="bower_components/leapjs-plugins/main/leap-plugins-0.1.6.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+        LeapSignature.init(document.querySelector('.signature'));
+    </script>
+</body>
+</html>
