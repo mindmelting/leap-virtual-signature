@@ -63,7 +63,7 @@ window.LeapSignature = window.LeapSignature || (function(Leap){
                 normPos = frame.interactionBox.normalizePoint(pointable.stabilizedTipPosition, true);
 
                 for (x = 0; x < signatures.length; x++) {
-                    signatures[0]._processCoordinates(normPos[0], normPos[1]);
+                    signatures[x]._processCoordinates(normPos[0], normPos[1]);
                 }
             }
         } 
